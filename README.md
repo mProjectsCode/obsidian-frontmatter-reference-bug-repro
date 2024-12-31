@@ -122,8 +122,7 @@ data:
 
 ## Remarks
 
-In essence frontmatter handles like we would expect a normal JavaScript object to handle.
-But this is contrary to how we would expect a serialized Object to handle.
-With e.g. JSON as the serialization format this behavior would not occur.
+In essence frontmatter handles like we would expect a normal JavaScript object to handle, but this is contrary to how we would expect a serialized Object to behave.
+With e.g. JSON as the serialization format, this would behave like outlined in the "Expected Behavior" sections in the reproduction steps.
 In addition, few people know about YAML [anchors and references](https://yaml.org/spec/1.2.2/#71-alias-nodes) and they are [confusing to the average user](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/issues/490).
 In light of this, I believe this behavior to be a bug that the Obsidian team should address.
