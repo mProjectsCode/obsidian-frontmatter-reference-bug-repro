@@ -126,3 +126,28 @@ In essence frontmatter handles like we would expect a normal JavaScript object t
 With e.g. JSON as the serialization format, this would behave like outlined in the "Expected Behavior" sections in the reproduction steps.
 In addition, few people know about YAML [anchors and references](https://yaml.org/spec/1.2.2/#71-alias-nodes) and they are [confusing to the average user](https://github.com/mProjectsCode/obsidian-meta-bind-plugin/issues/490).
 In light of this, I believe this behavior to be a bug that the Obsidian team should address.
+
+## Debug Info
+
+```yml
+SYSTEM INFO:
+	Obsidian version: v1.8.0
+	Installer version: v1.6.5
+	Operating system: #1 SMP Tue Nov 5 00:21:55 UTC 2024 5.15.167.4-microsoft-standard-WSL2
+	Login status: logged in
+	Language: en
+	Catalyst license: supporter
+	Insider build toggle: on
+	Live preview: on
+	Base theme: adapt to system
+	Community theme: none
+	Snippets enabled: 0
+	Restricted mode: off
+	Plugins installed: 2
+	Plugins enabled: 1
+		1: frontmatter-reference-bug-repro v1.0.0
+
+RECOMMENDATIONS:
+	Community plugins: for bugs, please first try updating all your plugins to latest. If still not fixed, please try to make the issue happen in the Sandbox Vault or disable community plugins.
+
+```
